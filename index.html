@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main class="principal">
+        <div class="imagens">
+            <img class="imagem__cell" src="assets/celular.png" alt="celular">
+            <img class="imagem__cell__2" src="./assets/insta1.png" alt="cell 2">
+            <img class="imagem__cell__2 imagem-2" src="./assets/insta2.png" alt="cell 3">
+        </div>  
+
+        <section class="estrutura">
+        <div class="container">
+            <img class="imagem__instagram" src="assets/insta-logo.png" alt="logo">
+            <input class="texto" type="text" placeholder="Telefone, nome de usuário ou e-mail">
+            <input class="texto" type="password" placeholder="Senha">
+            <button>Entrar</button>
+            <a class="facebook" href="#">
+                <img class="facebook__image" src="assets/facebook2.jpg" alt="facebook">
+                Entrar com Facebook</a>
+            <a class="esqueci__senha" href="#">Esqueceu sua senha ?</a>
+            </div>
+
+        <div class="segundo-bloco">
+            <h2 class="texto-segundo-bloco">Não tem uma conta?</h2>
+            <a class="botao-cadastrar" href="#">Cadastre-se</a>
+        </div>
+        
+        <div class="parte-tres">
+            <p class="textp-terceira-parte">Obtenha o aplicativo.</p>
+            <img src="assets/googleplay.png" alt="googleplay">
+            <img src="assets/microsoft.png" alt="microsoft">
+        </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="rodape">
+            <ul class="rodape__lista">
+                <li>
+                    <a class="links" href="#">Meta</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Sobre</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Blog</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Carreiras</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Ajuda</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">API</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Privacidade</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Termos</a>
+                </li>
+                <li>
+                    <a  class="links" href="#">Principais contas</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Localização</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Instagram lite</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Threads</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Carregamento de contatos e não usuários</a>
+                </li>
+                <li>
+                    <a class="links"  href="#">Meta Verified</a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape__texto">
+            <p class="texto-rodape">Português (Brasil)</p>
+            <p class="texto-rodape">© 2023 Instagram from Meta</p>
+        </div>
+        
+    </footer>
+</body>
+<script>
+    let imagem = document.querySelector(".imagem-2")
+
+    setInterval(() => {
+        if(imagem.style.opacity==0){
+
+            imagem.style.opacity = 1
+
+        } else{
+
+            imagem.style.opacity = 0
+        }
+           
+    }, 5000);
+
+</script>
+</html>

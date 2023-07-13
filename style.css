@@ -1,0 +1,152 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.principal{
+    background-color: #fafafa;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem__cell{
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    width: 270px;
+    padding: 40px;
+}
+
+button{
+    color: #ffffff;
+    background-color: #78C1F3;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.texto{
+    border: 1px solid #d3d3d3;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.facebook{
+    color: #385185;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook__image{
+    width: 30px;
+}
+
+.esqueci__senha{
+    color: #385185;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.imagem__instagram{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imagens{
+    position: relative;
+}
+
+.imagem__cell__2{
+    width: 270px;
+    position: absolute;
+    left: 166px;
+    top: 26px;
+    transition: 2s ease-in-out;
+}
+
+.rodape__lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1em;
+    font-size: 14px;
+}
+
+.links{
+    text-decoration: none;
+    color: grey;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.rodape__texto{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.texto-rodape{
+    font-size: 14px;
+    color: grey;
+}
+
+.links:hover{
+    color: #1877F2;
+}
+
+.segundo-bloco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d3d3d3;
+    padding: 10px;  
+    font-family: inherit; 
+    text-align: center;
+}
+
+.texto-segundo-bloco{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.botao-cadastrar{
+    text-decoration: none;
+    color: #1877F2;
+    margin-left: 5px;
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px;
+    gap: 20px;
+}
+
+.parte-tres{
+    text-align: center;
+}
+
